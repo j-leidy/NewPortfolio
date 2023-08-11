@@ -148,7 +148,7 @@ interface CardComponentProps {
     cardTitleSize?: number;
     cardSkillsArr?: string[];
     ComponentToWrap: (props: any) => JSX.Element;
-    internalComponentProps?: {};
+    internalComponentProps?: object;
     paddInternalCard?:boolean;
     internalCardPadding?:number;
     InternalCardContainer?: IStyledComponent<any,any>
